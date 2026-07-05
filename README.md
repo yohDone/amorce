@@ -20,7 +20,4 @@ Stop wasting hours configuring linters, formatting tools, Git hooks, and environ
 
 ## 📦 Installation
 
-*(Coming soon to crates.io)*
-
-```bash
-cargo install amorce
+>*(Coming soon to crates.io)*
