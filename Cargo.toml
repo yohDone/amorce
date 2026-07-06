@@ -1,0 +1,9 @@
+[package]
+name = "amorce"
+version = "0.1.0"
+edition = "2024"
+description = "A universal, zero-friction project scaffolder and workflow manager."
+repository = "https://github.com/yohDone/amorce"
+license = "MIT"
+keywords = ["cli", "git", "manager", "scaffold", "workflow"]
+categories = ["command-line-utilities", "development-tools"]
