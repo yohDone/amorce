@@ -1,6 +1,6 @@
 # 🚀 Amorce
 
-[![CI](https://github.com/YOUR_GITHUB_USERNAME/amorce/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/amorce/actions)
+[![CI](https://github.com/yohDone/amorce/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/amorce/actions)
 [![Crates.io](https://img.shields.io/crates/v/amorce.svg)](https://crates.io/crates/amorce)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
