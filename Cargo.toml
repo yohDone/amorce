@@ -7,3 +7,22 @@ repository = "https://github.com/yohDone/amorce"
 license = "MIT"
 keywords = ["cli", "git", "manager", "scaffold", "workflow"]
 categories = ["command-line-utilities", "development-tools"]
+
+[package.metadata.release]
+publish = false
+sign-tag = true
+shared-version = true
+tag-name = "v{{version}}"
+tag-message = "chore: Release Amorce v{{version}}"
+commit-message = "chore: bump version to {{version}}"
+pre-release-hook = "git cliff --tag v{{version}} --prepend CHANGELOG.md"
+
+[dependencies]
+clap = { version = "4.6.1", features = ["derive"] }
+dirs = "6.0.0"
+regex = "1.12.4"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+sha2 = "0.11.0"
+thiserror = "2.0.18"
+toml = "0.9.8"
