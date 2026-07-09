@@ -21,3 +21,7 @@ Stop wasting hours configuring linters, formatting tools, Git hooks, and environ
 ## 📦 Installation
 
 >*(Coming soon to crates.io)*
+
+## 📃 License
+
+This project is [MIT](./LICENSE.md) licensed
